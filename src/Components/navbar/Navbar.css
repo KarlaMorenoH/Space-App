@@ -13,11 +13,13 @@
 .nav-logo {
     max-width: 50px;
     max-height: 50px;
-}
+    object-fit: contain;
+    margin:0; /* Se añade para que el logo no se mueva de la navbar */
+    }
 
 .links-container {
-    width: 560px;
-    font-weight: 500;
+    width: 580px;
+    font-weight: 480;
     display: flex;
     align-items: center;
     justify-content: space-around;

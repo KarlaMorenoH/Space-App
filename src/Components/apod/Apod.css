@@ -1,0 +1,38 @@
+.apod-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.card {
+    max-width: 800px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.apod-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.apod-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.apod-date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.apod-explanation {
+    font-size: 16px;
+    color: #333;
+}

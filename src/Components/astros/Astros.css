@@ -1,0 +1,43 @@
+/* Contenedor principal que agrupa todas las cards */
+.astros-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    margin-top: 60px; /* margen superior para que no se encimen las tarjetas en la navbar */
+    }
+
+/* Estilos generales para cada card */
+.card {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    opacity: 0.9;
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Animación al hacer hover */
+}
+
+/* Estilos cuando el ratón pasa sobre la card */
+.card:hover {
+    transform: translateY(-5px); /* Movimiento de la card ligeramente */
+}
+
+/* Estilos para el nombre del astronauta */
+.astro-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #150166; /* Color del texto */
+    margin-bottom: 10px;
+}
+
+/* Estilos para el nombre de la nave */
+.astro-craft {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000; /* Color gris para el nombre de la nave */
+}

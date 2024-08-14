@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import "./Astros";
 import CircularProgress from "@mui/material/CircularProgress";
 import './Astros.css';
 
